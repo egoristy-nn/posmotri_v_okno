@@ -45,6 +45,7 @@ ol {
   padding: 133px 30px;
   gap: 30px;
   align-items: flex-end;
+  
 }
 
 .result {
@@ -201,6 +202,8 @@ ol {
 
 .search-form__label {
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 .search-form__checkbox-list {
@@ -227,6 +230,7 @@ input::-webkit-input-placeholder {
 
 .search-form__label-text {
   vertical-align: top;
+  margin-left: 4px;
 }
 
 .search-form__label .search-form__pseudo-checkbox {
